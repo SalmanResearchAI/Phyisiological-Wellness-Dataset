@@ -51,6 +51,14 @@ The dataset contains **24 variables**, grouped into functional domains:
 
 ---
 
+## Citation
+
+If you use this dataset, please cite:
+
+> Evangelista, E., Nazir, A., Bukhari, S. M. S., Dahmani, N., Tbaishat, D., & Sharma, R. (2025).  
+> *ZU-PW Dataset: Longitudinal Multimodal Physiological and Behavioral Signals from Medical-Grade Wearables.*  
+> Zayed University.
+
 ## Quick Start
 
 ### Python
@@ -63,3 +71,4 @@ df = pd.read_csv("zu_pw_dataset.csv")
 # Inspect shape and first few rows
 print(df.shape)
 print(df.head())
+

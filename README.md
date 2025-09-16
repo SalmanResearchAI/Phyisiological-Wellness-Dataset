@@ -1,19 +1,12 @@
-# Phyisiological-Wellness-Dataset
-Longitudinal multimodal dataset of physiological &amp; behavioral signals from Empatica Embrace Plus wearables (28 adults, 15 months).
+# Zayed University Physiological Wellness Dataset 2025 (ZU-PWD ’25)
 
-# ZU-PW Dataset
-**Longitudinal Multimodal Physiological and Behavioral Signals from Medical-Grade Wearables**
-
-**Size**: 901,440 rows × 24 columns  
-**Participants**: 28 adults  
-**Duration**: March 2024 – May 2025  
-**Device**: Empatica Embrace Plus  
+Longitudinal multimodal dataset of physiological & behavioral signals from Empatica Embrace Plus wearables (28 adults, 15 months).
 
 ---
 
 ## Overview
-The **ZU-PW Dataset** provides synchronized, minute-level physiological and behavioral signals collected from **28 adults** wearing **Empatica Embrace Plus** wrist-worn devices over **15 months**.  
-Unlike many existing wearable datasets, ZU-PW offers:
+The **ZU-PWD ’25** dataset provides synchronized, minute-level physiological and behavioral signals collected from **28 adults** wearing **Empatica Embrace Plus** wrist-worn devices over **15 months**.  
+Unlike many existing wearable datasets, ZU-PWD ’25 offers:
 
 - **Longitudinal coverage** (10–30+ days per participant)  
 - **Multimodal signals** across cardiovascular, respiratory, thermoregulatory, electrodermal, movement, sleep, and posture domains  
@@ -25,7 +18,7 @@ This dataset is designed to support **digital phenotyping, behavioral health mon
 ---
 
 ## Dataset Contents
-- **`zu_pw_dataset.csv`** → Main dataset (`901,440 × 24` minute-level observations)  
+- **`final_merged_2024_to_2025.csv`** → Main dataset (`901,440 × 24` minute-level observations)  
 
 ---
 
@@ -56,8 +49,10 @@ The dataset contains **24 variables**, grouped into functional domains:
 If you use this dataset, please cite:
 
 > Evangelista, E., Nazir, A., Bukhari, S. M. S., Dahmani, N., Tbaishat, D., & Sharma, R. (2025).  
-> *ZU-PW Dataset: Longitudinal Multimodal Physiological and Behavioral Signals from Medical-Grade Wearables.*  
-> Zayed University.
+> *Zayed University Physiological Wellness Dataset 2025 (ZU-PWD ’25): Longitudinal Multimodal Physiological and Behavioral Signals from Medical-Grade Wearables.*  
+> Zayed University.  
+
+---
 
 ## Quick Start
 
@@ -66,9 +61,8 @@ If you use this dataset, please cite:
 import pandas as pd
 
 # Load dataset
-df = pd.read_csv("zu_pw_dataset.csv")
+df = pd.read_csv("zu_pwd25_dataset.csv")
 
 # Inspect shape and first few rows
 print(df.shape)
 print(df.head())
-
